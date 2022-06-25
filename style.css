@@ -1,0 +1,62 @@
+/* this is a comment in CSS 
+    CSS is used for styling the html file
+*/
+
+/*
+https://www.educative.io/answers/class-and-id-selectors-in-css
+*/
+
+/*
+    Selectors: class and id
+        class ->   .
+            - refers to a group of task
+        id ->      #
+            - refers to one specific task
+        the pogrammer can name the class and id however they want
+*/
+
+html {
+    font-family: system-ui, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkseagreen;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    background-color: white;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.james-photo {
+    width: 500px;
+}
+
+#greetings {
+    color: black;
+}
+
+.major-box {
+    padding: 30px; /* adds paragraph spacing */
+    border: 1px solid black; /* adds a box border around the text*/
+    background-color: peachpuff;
+}
+
+.grid-0 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.box-0 {
+    padding: 10px;
+}
+
+.intro {
+    text-align: center;
+}
